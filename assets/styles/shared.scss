@@ -43,14 +43,20 @@ h3 {
 /* styling the footer of the website below */
 
 footer {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2em;
-  margin: 72px 0 48px 0;
+  margin: 144px 0 0 0;
+  padding-bottom: 3rem;
+  padding-top: 92px;
+  background: $veryLightGrey;
 }
 
 .footer-logo {
+  position: absolute;
+  top: -4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,6 +82,10 @@ footer a {
   max-height: 72px;
   padding: 1.5em 1.75em;
   background-color: $veryDarkBlue;
+}
+
+footer .view-portfolio {
+  margin-top: 0;
 }
 
 .view-portfolio a {
@@ -151,9 +161,23 @@ footer a {
   /* styling the footer of the website below */
 
   footer {
+    width: 612px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 0 2.9rem 0;
     margin: 200px 0 0 0;
+  }
+
+  .footer-logo {
+    left: 0;
+    top: 0rem;
+  }
+
+  footer .view-portfolio {
+    position: absolute;
+    right: -7.5rem;
+    top: 1.75rem;
   }
 }
 
@@ -204,9 +228,10 @@ footer a {
   /* styling the footer of the website below */
 
   footer {
-    width: 1110px;
-    margin: 200px 165px 0 165px;
-    justify-content: flex-start;
+    width: 984px;
+    margin: 200px 0 0 165px;
+    padding: 6rem 0;
+    justify-content: center;
     gap: 3em;
   }
 
@@ -222,5 +247,9 @@ footer a {
   .view-portfolio {
     justify-self: flex-end;
     margin-left: auto;
+  }
+
+  footer .view-portfolio {
+    top: 4rem;
   }
 }

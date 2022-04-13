@@ -158,6 +158,7 @@ h3 {
 /* styling components which will be same across all pages of website here */
 /* styling the footer of the website below */
 footer {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,10 +170,15 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   gap: 2em;
-  margin: 72px 0 48px 0;
+  margin: 144px 0 0 0;
+  padding-bottom: 3rem;
+  padding-top: 92px;
+  background: #eeeff4;
 }
 
 .footer-logo {
+  position: absolute;
+  top: -4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,6 +217,10 @@ footer a {
   max-height: 72px;
   padding: 1.5em 1.75em;
   background-color: #1b1d23;
+}
+
+footer .view-portfolio {
+  margin-top: 0;
 }
 
 .view-portfolio a {
@@ -281,14 +291,26 @@ footer a {
   }
   /* styling the footer of the website below */
   footer {
+    width: 612px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 3rem;
+    padding: 3rem 0 2.9rem 0;
     margin: 200px 0 0 0;
+  }
+  .footer-logo {
+    left: 0;
+    top: 0rem;
+  }
+  footer .view-portfolio {
+    position: absolute;
+    right: -7.5rem;
+    top: 1.75rem;
   }
 }
 
@@ -329,11 +351,12 @@ footer a {
   }
   /* styling the footer of the website below */
   footer {
-    width: 1110px;
-    margin: 200px 165px 0 165px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    width: 984px;
+    margin: 200px 0 0 165px;
+    padding: 6rem 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 3em;
   }
   .footer-logo {
@@ -347,6 +370,9 @@ footer a {
   .view-portfolio {
     justify-self: flex-end;
     margin-left: auto;
+  }
+  footer .view-portfolio {
+    top: 4rem;
   }
 }
 /*# sourceMappingURL=shared.css.map */

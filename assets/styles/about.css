@@ -101,6 +101,7 @@
     right: 5rem;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
+    z-index: 999;
     color: #eeeff4;
   }
   .our-heritage {
