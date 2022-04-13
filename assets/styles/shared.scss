@@ -1,0 +1,226 @@
+@import "navbar";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling font's base style for the website */
+
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+p,
+a {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+h1.heading-small {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.43px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+/* styling components which will be same across all pages of website here */
+
+/* styling the footer of the website below */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  margin: 72px 0 48px 0;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: $veryDarkBlue;
+}
+
+.footer-logo > svg {
+  transform: scale(0.6);
+}
+
+footer a {
+  color: $mediumGrey;
+}
+
+.view-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  max-width: 252px;
+  max-height: 72px;
+  padding: 1.5em 1.75em;
+  background-color: $veryDarkBlue;
+}
+
+.view-portfolio a {
+  color: $veryLightGrey;
+}
+
+.page-marker {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  /* styling font's base style for the website */
+
+  p,
+  a {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0ch;
+  }
+
+  h1.heading-large {
+    font-size: 120px;
+    line-height: 200px;
+    letter-spacing: -3px;
+    color: $lightGrey;
+  }
+
+  h1.heading-small {
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -2px;
+  }
+
+  h2 {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+
+  /* styling components which will be same across all pages of website here */
+
+  .primary-heading {
+    margin: 56px 0 56px 97px;
+  }
+
+  .page-marker {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    width: 265px;
+    height: 25px;
+    top: 115px;
+    left: -80px;
+    transform: rotate(90deg);
+  }
+
+  .page-marker hr {
+    width: 104px;
+  }
+
+  .page-marker h3 {
+    color: $lightGrey;
+  }
+
+  /* styling the footer of the website below */
+
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 200px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* styling font's base style for the website */
+
+  p,
+  a {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+
+  h1.heading-large {
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -5px;
+  }
+
+  h1.heading-small {
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -2px;
+  }
+
+  h2 {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+
+  /* styling components which will be same across all pages of website here */
+
+  .primary-heading {
+    margin: 56px 0 56px 164px;
+  }
+
+  main {
+    max-width: 1110px;
+  }
+
+  /* styling the footer of the website below */
+
+  footer {
+    width: 1110px;
+    margin: 200px 165px 0 165px;
+    justify-content: flex-start;
+    gap: 3em;
+  }
+
+  .footer-logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer-logo svg {
+    transform: scale(1);
+  }
+
+  .view-portfolio {
+    justify-self: flex-end;
+    margin-left: auto;
+  }
+}

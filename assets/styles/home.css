@@ -1,0 +1,393 @@
+main {
+  color: #fff;
+}
+
+.container-outer {
+  width: 375px;
+  height: 560px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro.container-outer {
+  background: url("../home/mobile/image-hero-paramour.jpg") no-repeat;
+}
+
+.about.container-outer {
+  background: url("../home/mobile/image-small-team.jpg") no-repeat;
+}
+
+.about {
+  margin: 95px 0 72px 0;
+}
+
+.container-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: #00000066;
+}
+
+.container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container-content .view-portfolio {
+  padding: 1.5em 1.5em;
+}
+
+.container-content {
+  margin: 1.5rem;
+}
+
+.container-inner h2 {
+  width: 7.5em;
+}
+
+.view-portfolio {
+  margin-top: 1em;
+  padding: 1.5em;
+}
+
+.intro-copy {
+  margin: 140px 32px 97px 32px;
+}
+
+.intro-copy h2 {
+  color: #1b1d23;
+  margin-bottom: 1.5rem;
+}
+
+.intro-copy p {
+  color: #7d828f;
+  margin-bottom: 1.25rem;
+}
+
+.featured-projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  margin: 72px 32px 0px 32px;
+}
+
+.featured-projects-container h2 {
+  color: #1b1d23;
+  margin-bottom: 1.5rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.project-card-outer {
+  width: 311px;
+  height: 240px;
+  background: cover no-repeat;
+}
+
+.project-card-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  background: #00000066;
+}
+
+.project-card-inner h3,
+.project-card-inner a {
+  margin-left: 1.5rem;
+}
+
+.project-card-inner a {
+  color: #eeeff4;
+  margin-bottom: 1.5rem;
+}
+
+.del-sol {
+  background: url("../portfolio/mobile/image-del-sol.jpg") no-repeat;
+}
+
+.tower-228b {
+  background: url("../portfolio/mobile/image-228b.jpg") no-repeat;
+}
+
+.prototype {
+  background: url("../portfolio/mobile/image-prototype.jpg") no-repeat;
+}
+
+.view-all-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  width: 311px;
+  height: 72px;
+  background: #1b1d23;
+}
+
+.view-all-projects a {
+  color: #fff;
+}
+
+.page-marker,
+.welcome-image,
+.heading-large,
+.slider-container {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  main {
+    margin: 0 98px;
+  }
+  .container-outer {
+    width: 100%;
+    min-width: 567px;
+    height: 720px;
+    background-repeat: no-repeat;
+  }
+  h1.heading-large {
+    display: block;
+    margin: 74px 0 0 0;
+  }
+  .intro-copy,
+  .featured-projects-container {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .intro-copy {
+    margin-top: 0;
+  }
+  .about.container-outer {
+    height: 560px;
+  }
+  .intro.container-outer {
+    background: url("../home/tablet/image-hero-paramour.jpg") no-repeat;
+  }
+  .about.container-outer {
+    background: url("../home/tablet/image-small-team.jpg") no-repeat;
+  }
+  .featured-projects-container {
+    position: relative;
+  }
+  .view-all-projects {
+    position: absolute;
+    width: 169px;
+    height: 72px;
+    top: 0;
+    right: 0;
+  }
+  .project-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+  }
+  .project-card-outer {
+    width: 573px;
+    height: 240px;
+  }
+  .project-card-inner {
+    width: 100%;
+    height: 240px;
+    position: relative;
+  }
+  .project-card-inner h1.heading-large {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    margin: 0;
+    -webkit-transform: scale(1.75);
+            transform: scale(1.75);
+  }
+  .del-sol {
+    background: url("../portfolio/tablet/image-del-sol.jpg") no-repeat;
+  }
+  .tower-228b {
+    background: url("../portfolio/tablet/image-228b.jpg") no-repeat;
+  }
+  .prototype {
+    background: url("../portfolio/tablet/image-prototype.jpg") no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    margin: 0 165px;
+    max-width: 1110px;
+  }
+  .container-outer {
+    position: relative;
+    width: 100%;
+    max-width: 1110px;
+    height: 720px;
+    background-repeat: no-repeat;
+  }
+  .container-content {
+    width: 544px;
+    height: 361px;
+    margin-left: 190px;
+  }
+  .container-content .view-portfolio {
+    margin: 1.5rem 0 0 0;
+  }
+  .intro.container-outer {
+    background: url("../home/desktop/image-hero-paramour.jpg") no-repeat;
+  }
+  .about.container-outer {
+    background: url("../home/desktop/image-small-team.jpg") no-repeat;
+  }
+  .welcome-image {
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: 568px;
+    top: 67.5rem;
+    right: 165px;
+    z-index: -99;
+  }
+  h1.heading-large {
+    display: block;
+    margin-top: 95px;
+    z-index: 99;
+  }
+  .intro-copy {
+    width: 446px;
+    height: 493px;
+    margin-left: 10em;
+  }
+  .about {
+    margin: 200px 0;
+  }
+  .project-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    height: 560px;
+  }
+  .project-card-outer,
+  .project-card-inner {
+    width: 350px;
+    height: 100%;
+  }
+  .intro.container-inner {
+    position: relative;
+  }
+  .project-card-inner h1.heading-large {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    right: 0;
+  }
+  .del-sol {
+    background: url("../portfolio/desktop/image-del-sol.jpg") no-repeat;
+  }
+  .tower-228b {
+    background: url("../portfolio/desktop/image-228b.jpg") no-repeat;
+  }
+  .prototype {
+    background: url("../portfolio/desktop/image-prototype.jpg") no-repeat;
+  }
+  .slider-container {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -80px;
+  }
+  .slider-btn {
+    width: 80px;
+    height: 80px;
+    margin: -2.25px;
+    border: 0;
+  }
+  .active {
+    background: #000000;
+    color: white;
+  }
+  .slider-btn:hover {
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=home.css.map */
