@@ -293,7 +293,9 @@ main {
 
 @media (min-width: 768px) {
   main {
+    position: relative;
     margin: 0 165px;
+    width: 100%;
     max-width: 1110px;
   }
   .container-outer {
@@ -338,6 +340,10 @@ main {
   }
   .about {
     margin: 200px 0;
+  }
+  .welcome-image {
+    top: 64.5rem;
+    right: 0;
   }
   .project-container {
     -webkit-box-orient: horizontal;
