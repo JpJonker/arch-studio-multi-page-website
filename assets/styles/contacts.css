@@ -1,14 +1,17 @@
 .intro {
   position: relative;
+  width: 375px;
+  margin: 0 auto;
   margin-bottom: 27.5rem;
   z-index: 99;
 }
 
 .intro-img {
-  min-width: 311px;
-  max-width: 576px;
+  min-width: 320px;
+  width: 100%;
+  max-width: 375px;
   height: 240px;
-  background: url("../contact/mobile/image-hero.jpg");
+  background: url("../contact/mobile/image-hero.jpg") no-repeat;
 }
 
 .intro-img-overlay {
@@ -74,10 +77,13 @@
 }
 
 .map {
-  min-width: 375px;
+  min-width: 320px;
+  width: 100%;
+  max-width: 375px;
   height: 367px;
-  background: url("../contact/mobile/image-map.png") no-repeat center;
+  background: url("../contact/mobile/image-map.png") no-repeat;
   background-size: cover;
+  margin: 0 auto;
   margin-bottom: 72px;
 }
 
@@ -320,6 +326,9 @@ textarea.input-field::-webkit-scrollbar {
   .office-details {
     margin-right: 2rem;
   }
+  .office-details a:hover {
+    color: #60636d;
+  }
   .view-map {
     position: static;
   }
@@ -368,6 +377,9 @@ textarea.input-field::-webkit-scrollbar {
   .submit-form {
     position: relative;
     top: -12.5rem;
+  }
+  .submit-form:hover {
+    background: #7d828f;
   }
   footer {
     margin-top: 5px;

@@ -84,6 +84,11 @@ footer a {
   background-color: $veryDarkBlue;
 }
 
+.view-portfolio:hover,
+.view-all-projects:hover {
+  background-color: $mediumGrey;
+}
+
 footer .view-portfolio {
   margin-top: 0;
 }
@@ -169,6 +174,10 @@ footer .view-portfolio {
     margin: 200px 0 0 0;
   }
 
+  footer a:hover {
+    color: $darkGrey;
+  }
+
   .footer-logo {
     left: 0;
     top: 0rem;
@@ -251,5 +260,11 @@ footer .view-portfolio {
 
   footer .view-portfolio {
     top: 4rem;
+  }
+
+  .page-marker {
+    width: 386px;
+    top: 150px;
+    left: -150px;
   }
 }

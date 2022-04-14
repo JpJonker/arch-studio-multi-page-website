@@ -5,7 +5,8 @@ main {
 .container-outer {
   width: 375px;
   height: 560px;
-  background-size: cover;
+  margin: 0 auto;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -18,7 +19,7 @@ main {
 }
 
 .about {
-  margin: 95px 0 72px 0;
+  margin: 95px auto 72px auto;
 }
 
 .container-inner {
@@ -35,7 +36,6 @@ main {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  gap: 1rem;
   width: 100%;
   height: 100%;
   background-color: #00000066;
@@ -55,6 +55,7 @@ main {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  gap: 1rem;
 }
 
 .container-content .view-portfolio {
@@ -75,7 +76,8 @@ main {
 }
 
 .intro-copy {
-  margin: 140px 32px 97px 32px;
+  max-width: 311px;
+  margin: 140px auto 97px auto;
 }
 
 .intro-copy h2 {
@@ -89,6 +91,7 @@ main {
 }
 
 .featured-projects-container {
+  width: 311px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,7 +103,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   gap: 1.5rem;
-  margin: 72px 32px 0px 32px;
+  margin: 72px auto 0px auto;
 }
 
 .featured-projects-container h2 {
@@ -204,7 +207,8 @@ main {
 
 @media (min-width: 576px) {
   main {
-    margin: 0 98px;
+    max-width: 573px;
+    margin: 0 auto;
   }
   .container-outer {
     width: 100%;
@@ -222,6 +226,8 @@ main {
     margin-left: 0;
   }
   .intro-copy {
+    width: 576px;
+    max-width: 576px;
     margin-top: 0;
   }
   .about.container-outer {
@@ -240,8 +246,8 @@ main {
     position: absolute;
     width: 169px;
     height: 72px;
-    top: 0;
-    right: 0;
+    top: -0.5rem;
+    right: -16.4rem;
   }
   .project-container {
     -webkit-box-orient: vertical;

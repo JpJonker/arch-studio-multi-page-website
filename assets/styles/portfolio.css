@@ -29,6 +29,10 @@ main {
   background-size: cover;
 }
 
+.project-card-outer:hover {
+  cursor: pointer;
+}
+
 .project-card-inner {
   width: 100%;
   height: 100%;
@@ -105,6 +109,7 @@ main {
 @media (min-width: 567px) {
   main {
     padding: 97.5px;
+    margin: 0 auto;
   }
   .page-marker {
     width: 386px;

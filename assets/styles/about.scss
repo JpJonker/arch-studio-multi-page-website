@@ -2,15 +2,19 @@
 
 .intro {
   position: relative;
+  width: 375px;
+  margin: 0 auto;
   margin-bottom: 27.5rem;
   z-index: 99;
 }
 
 .intro-img {
-  min-width: 311px;
-  max-width: 576px;
+  min-width: 320px;
+  width: 100%;
+  max-width: 375px;
+
   height: 240px;
-  background: url("../about/mobile/image-hero.jpg");
+  background: url("../about/mobile/image-hero.jpg") no-repeat;
 }
 
 .intro-img-overlay {
@@ -203,8 +207,26 @@
     gap: 30px;
   }
 
+  .leader-card {
+    position: relative;
+  }
   .leader-card > img {
     width: 350px;
     height: 320px;
+  }
+
+  .social-links {
+    display: none;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 320px;
+    background: #00000044;
+  }
+
+  .social-links img {
+    filter: invert(1) brightness(1.2);
   }
 }

@@ -29,6 +29,11 @@
 }
 
 .nav-items li a:hover {
+  color: $darkGrey;
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
   font-weight: bold;
 }
 
