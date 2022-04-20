@@ -123,25 +123,19 @@ textarea.input-field::-webkit-scrollbar {
 }
 
 .input-field::-webkit-input-placeholder {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  padding-left: 4.5rem;
+  padding-left: 2.5rem;
 }
 
 .input-field:-ms-input-placeholder {
-  transform: scale(1.5);
-  padding-left: 4.5rem;
+  padding-left: 2.5rem;
 }
 
 .input-field::-ms-input-placeholder {
-  transform: scale(1.5);
-  padding-left: 4.5rem;
+  padding-left: 2.5rem;
 }
 
 .input-field::placeholder {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  padding-left: 4.5rem;
+  padding-left: 2.5rem;
 }
 
 .submit-form {
@@ -153,8 +147,8 @@ textarea.input-field::-webkit-scrollbar {
       align-self: flex-end;
 }
 
-.empty-message {
-  display: none;
+.error-message {
+  display: block;
   position: absolute;
   top: 3rem;
   right: 0;
@@ -162,32 +156,36 @@ textarea.input-field::-webkit-scrollbar {
           transform: scale(0.75);
 }
 
-.textarea-warning {
+.input-container:nth-of-type(3) .error-message {
   top: 6rem;
 }
 
-.empty-warning,
-.empty-warning::-webkit-input-placeholder {
-  color: red;
+.error-style,
+.error-style::-webkit-input-placeholder,
+.error-message {
   border-color: red;
+  color: red;
 }
 
-.empty-warning,
-.empty-warning:-ms-input-placeholder {
-  color: red;
+.error-style,
+.error-style:-ms-input-placeholder,
+.error-message {
   border-color: red;
+  color: red;
 }
 
-.empty-warning,
-.empty-warning::-ms-input-placeholder {
-  color: red;
+.error-style,
+.error-style::-ms-input-placeholder,
+.error-message {
   border-color: red;
+  color: red;
 }
 
-.empty-warning,
-.empty-warning::placeholder {
-  color: red;
+.error-style,
+.error-style::placeholder,
+.error-message {
   border-color: red;
+  color: red;
 }
 
 @media (min-width: 576px) {
@@ -246,28 +244,23 @@ textarea.input-field::-webkit-scrollbar {
     margin-bottom: 3rem;
   }
   .input-field::-webkit-input-placeholder {
-    -webkit-transform: scale(2);
-            transform: scale(2);
     padding-left: 10rem;
   }
   .input-field:-ms-input-placeholder {
-    transform: scale(2);
     padding-left: 10rem;
   }
   .input-field::-ms-input-placeholder {
-    transform: scale(2);
     padding-left: 10rem;
   }
   .input-field::placeholder {
-    -webkit-transform: scale(2);
-            transform: scale(2);
     padding-left: 10rem;
   }
   .input-field {
     border-width: 3px;
     padding-bottom: 2.75rem;
+    font-size: 2rem;
   }
-  .empty-message {
+  .error-message {
     -webkit-transform: scale(1.25);
             transform: scale(1.25);
   }
@@ -284,6 +277,7 @@ textarea.input-field::-webkit-scrollbar {
     margin: 0;
   }
   .intro-img {
+    max-width: 573px;
     background-image: url("../contact/desktop/image-hero.jpg");
   }
   .intro h1.heading-small {
