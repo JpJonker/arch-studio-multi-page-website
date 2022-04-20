@@ -123,19 +123,19 @@ textarea.input-field::-webkit-scrollbar {
 }
 
 .input-field::-webkit-input-placeholder {
-  padding-left: 2.5rem;
+  padding-left: 2rem;
 }
 
 .input-field:-ms-input-placeholder {
-  padding-left: 2.5rem;
+  padding-left: 2rem;
 }
 
 .input-field::-ms-input-placeholder {
-  padding-left: 2.5rem;
+  padding-left: 2rem;
 }
 
 .input-field::placeholder {
-  padding-left: 2.5rem;
+  padding-left: 2rem;
 }
 
 .submit-form {
@@ -244,16 +244,16 @@ textarea.input-field::-webkit-scrollbar {
     margin-bottom: 3rem;
   }
   .input-field::-webkit-input-placeholder {
-    padding-left: 10rem;
+    padding-left: 3.5rem;
   }
   .input-field:-ms-input-placeholder {
-    padding-left: 10rem;
+    padding-left: 3.5rem;
   }
   .input-field::-ms-input-placeholder {
-    padding-left: 10rem;
+    padding-left: 3.5rem;
   }
   .input-field::placeholder {
-    padding-left: 10rem;
+    padding-left: 3.5rem;
   }
   .input-field {
     border-width: 3px;
@@ -357,16 +357,16 @@ textarea.input-field::-webkit-scrollbar {
         align-self: flex-end;
   }
   .input-field::-webkit-input-placeholder {
-    padding-left: 12.5rem;
+    padding-left: 5rem;
   }
   .input-field:-ms-input-placeholder {
-    padding-left: 12.5rem;
+    padding-left: 5rem;
   }
   .input-field::-ms-input-placeholder {
-    padding-left: 12.5rem;
+    padding-left: 5rem;
   }
   .input-field::placeholder {
-    padding-left: 12.5rem;
+    padding-left: 5rem;
   }
   .submit-form {
     position: relative;
